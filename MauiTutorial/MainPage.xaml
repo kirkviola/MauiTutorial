@@ -4,6 +4,7 @@
              x:Class="MauiTutorial.MainPage">
 
     <ScrollView
+        x:Name="Screen"
         BackgroundColor="Black">
         <VerticalStackLayout
             Spacing="25"
@@ -20,6 +21,7 @@
                 Text="Hello, World!"
                 SemanticProperties.HeadingLevel="Level1"
                 FontSize="32"
+                TextColor="Silver"
                 HorizontalOptions="Center" />
 
             <Label
@@ -27,6 +29,7 @@
                 SemanticProperties.HeadingLevel="Level2"
                 SemanticProperties.Description="Welcome to dot net Multi platform App U I"
                 FontSize="18"
+                TextColor="Silver"
                 HorizontalOptions="Center" />
 
             <Label 
@@ -34,6 +37,7 @@
                 SemanticProperties.HeadingLevel="Level3"
                 SemanticProperties.Description="A new label I'm adding for fun here"
                 FontSize="16"
+                TextColor="Silver"                
                 HorizontalTextAlignment="Center"
                 HorizontalOptions="Center" />
 
@@ -48,8 +52,7 @@
                 x:Name="FunnyBtn"
                 Text="No Click me!"
                 SemanticProperties.Hint="Does something fun to the ui ;)"
-                
-                />
+                HorizontalOptions="Center"/>
 
         </VerticalStackLayout>
     </ScrollView>

@@ -25,7 +25,7 @@ public partial class MainPage : ContentPage
 
 	private void OnFunClicked(object sender, EventArgs e)
 	{
-		// To Do: Figure out how to change background color property
+		//Label.TextColorProperty = ConsoleColor.Green;
 	}
 }
 
